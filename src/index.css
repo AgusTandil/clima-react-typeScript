@@ -1,5 +1,5 @@
 :root {
-  --white: #FFF;
+  --white: lab(100% 0.01 -0.01);
   --primary: #F59E0B;
 }
 
@@ -14,4 +14,8 @@ body {
   background-repeat: no-repeat;
   color:var(--white);
   font-size: 2rem;
+}
+
+.every-country{
+  color:black
 }
